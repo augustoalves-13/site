@@ -23,7 +23,7 @@ function App() {
       toast.error('É serio q ainda está tentando, manda ai vái')
     }
     
-  },[posicaoX])
+  },[posicaoX, vezes])
 
 
   return (
@@ -35,7 +35,7 @@ function App() {
 
       <div className='buttons'>
 
-        <a target='_blank' href='https://www.youtube.com/watch?v=tDpy-KnySNw'>
+        <a target='_blank' rel='noreferrer' href='https://www.youtube.com/watch?v=tDpy-KnySNw'>
           <button className='yes' onClick={() => toast('obrigado amor, estou esperando no meu whatsapp ratazana ❤️❤️❤️')}>SIM</button>
         </a>
         
