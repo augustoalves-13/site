@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
+.container{
+  height: 100vh;
+  width: 100vw;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  background-image: url('../public/wp1974261.webp');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 50px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.sucesso{
+  color: greenyellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.erro{
+  color: red;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.yes{
+  background-color: green;
+  transition: .5s;
+}
+
+.yes:hover{
+  transform: scale(1.3);
+}
+
+button{
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.no{
+  background-color: red;
 }
